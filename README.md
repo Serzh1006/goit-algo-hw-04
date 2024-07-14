@@ -2,36 +2,34 @@
 
 install:
 
-<!-- for windows -->
+------for windows------
 
-<!-- create -->
+1.create
 
 python -m venv myenv
 
-<!-- activate -->
+2.activate
 
 myenv\Scripts\activate
 
-<!-- deactivate -->
+3.deactivate
 
 deactivate
 
-<!-- for macOS and linux -->
+------for macOS and linux------
 
-<!-- create -->
+1.create
 
 python3 -m venv myenv
 
-<!-- activate -->
+2.activate
 
 source myenv/bin/activate
 
-<!-- deactivate -->
+3.deactivate
 
 deactivate
 
-<!-- next we must install package prettytable -->
+------Next we must install package 'prettytable'------
 
 pip install prettytable
-
-<!-- Next - start a program in terminal -->
